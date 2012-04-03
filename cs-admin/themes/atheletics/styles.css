@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{background:#022000; color:white;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px;}
+
+body{width:946px; margin:0px auto 0px auto;  border-top:none;padding:12px;}
+
+
+a{color:lightgreen; text-decoration:underline; }
+a:hover{color:#ffc}
+
+
+#logo{font-size:18px; font-weight:bold; color:white;  font-variant:small-caps; text-align:right; width:auto; float:right; margin-top:25px;}
+
+#footer{text-align:center; clear:both; width:946px; font-size:10px; background: #83997d; margin-top:10px; color:black; height:20px; line-height:20px; }
+#footer a{color:black;}
+#footer a:hover{color:darkgreen}
+
+#nav_bar{margin-bottom:12px; background-color:#83997d; width:867px; float:right; text-align:center;}
+#cs_nav a{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; text-decoration:none; color:white; font-variant:small-caps; letter-spacing:2px;}
+
+#cs_nav a { text-align:center; height:28px; line-height:28px; padding:0px 50px 0px 50px;}
+#cs_nav a:hover{color:#ffc; background:green; }
+#cs_nav a.active{background:green; color:#ffc; cursor:default;}
+
+img.logo {margin-left:6px;}
+
+
+h1{display:inline-block; width:100%; text-align:right; margin:0px 12px 12px 0px;}
+
+h2{font-family:Georgia, "Times New Roman", Times, serif; margin-bottom:4px; margin-top:24px;font-size:24px;font-weight:bold; color:#FFC; font-variant:small-caps; border-bottom:solid 1px white;}
+h3{font-family:Georgia, "Times New Roman", Times, serif; margin-bottom:4px; margin-top:24px;font-size:20px;font-weight:bold; color:#FFC; font-variant:small-caps; font-style:normal;}
+
+
+#cs_content img[align="left"]{margin-right:12px; margin-bottom:12px;}
+#cs_content img[align="right"]{margin-left:12px; margin-bottom:12px;}
+
+#cs_content img{border:solid 1px white}
+
+#cs_content {margin-top:50px; width:946px; clear:both;}
+
+ul li{padding-left:8px;list-style-position:outside; position:relative; left:30px; font-size:14px; margin-bottom:8px;}
+
+table{border:solid 1px #ffc; color:darkgreen; background:#83997d; margin-bottom:20px;}
+table h3{margin-top:8px;}
+

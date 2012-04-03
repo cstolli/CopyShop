@@ -1,0 +1,1 @@
+<? cs_item_tool($mysqli, 'cs_contact_info', 1, "", "", "", "?tbl=Settings&action=settings&tab=contact info&status=1"); ?>

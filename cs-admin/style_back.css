@@ -1,0 +1,685 @@
+@charset "utf-8";
+/* CopyShop top-level tools styles */
+/* these are system and should not be changed unless you are just high and wanna do it */
+/* If you want this size in pixels (px)  	Declare this percent (%)
+10 	77
+11 	85
+12 	93 (was 93)
+13 	100
+14 	108 (was 107)
+15 	116 (was 114)
+16 	123.1 (was 122)
+17 	131 (was 129)
+18 	138.5 (was 136)
+19 	146.5 (was 144)
+20 	153.9 (was 152)
+21 	161.6 (was 159)
+22 	167
+23 	174
+24 	182
+25 	189
+26 	197 */
+body{
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+*{text-align:left;}
+.cs_status_default{width:100px; height:20px; text-align:center; line-height:20px; background:beige; float:right; border:dotted 1px brown;}
+
+.cs_text_input
+{
+	display:inline-block;
+	font-family:"Trebuchet MS";
+	font-size:100%;
+	margin-left:4px;
+	padding:4px;
+
+}
+
+/*.mceEditor {position:relative; left:10px; width:500px; height:200px;}*/
+
+.cs_tools_timestamp
+{
+	position:relative;
+	top:-22px;
+	font-size:85%;
+	float:right;
+
+}
+
+.cs_text_label
+{
+	text-transform:capitalize;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	font-weight:bold;
+	margin-top:20px;
+	color:#cca;
+
+	
+}
+
+div.cs_image_preview{
+
+	padding:10px;
+	border:dotted 1px brown;
+	
+	
+	position:absolute;
+	left:550px;
+	top:200px;
+	
+}
+
+img.cs_image_preview{
+
+	width:200px;
+	max-width:400px;
+	max-height:350px;
+	
+
+}
+
+.cs_edit_button
+{
+
+}
+
+.cs_edit_row{ cursor:pointer;  height:30px; min-width:400px;	border-bottom:dotted 1px #555;}
+
+.cs_edit_row_delete_check{ float:left; position:relative; top: 6px; left:4px;}
+
+.cs_delete_button_form{
+	
+	width:12px;
+	height:8px;
+	float:right;
+	font-size:77%
+	
+	margin-top:4px;
+	
+}
+
+
+.cs_image_thumb_header{
+
+	
+	height:16px;
+
+	width:100%;
+
+}
+
+form.cs_image_delete{
+
+	display:inline-block;
+	height:20px;
+	width:20px;
+	float:right;
+
+}	
+
+.cs_edit_row_delete, .cs_edit_row_edit_button
+{
+	cursor:pointer;
+	display:block;
+	margin-right:10px;
+	float:right;
+	font-family:"trebuchet ms";
+	text-decoration:none;
+	font-size:77%
+	font-weight:bold;
+	color:#A52A2A;
+
+}
+
+a.cs_edit_row_delete_button:hover, a.cs_edit_row_edit_button:hover{
+
+	
+	color:#ffffff;
+	
+
+}
+
+a.cs_edit_row_title
+{
+
+	display:inline;
+	float:left;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	font-weight:bold;
+	color:#555;
+	width:auto;
+	margin-left:10px;
+	margin-right:20px;	
+	text-decoration:none;
+	line-height:30px;
+	min-width:300px;
+
+}
+
+
+.bg0{background:white;}
+.bg1{background-color:#efefef;}
+.bg3{background-color:#996;}
+
+.cs_delete_button
+{
+
+}
+
+.cs_yes_no
+{
+	display:inline-block;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	margin-top:4px;
+	margin-bottom:4px;
+	width:100px;
+}
+
+.cs_radio_no
+{
+	margin-left:10px;
+}
+
+.cs_save_button
+{
+
+	clear:both;
+	float:left;
+	margin-top:15px;
+	
+}
+
+#cs_tools_footer{
+
+	 position:relative; 
+	 text-align:center; 
+	 background:url(../cs-content/images/header-background.gif);
+	 font-family:"Trebuchet MS";
+	 font-size:93%;
+	 font-weight:bold;
+	 color:white;
+	 text-align:center;
+	 padding:10px;
+	 margin-top:20px;
+	 height:40px;
+	 clear:both;
+	 
+	 
+ }
+
+#inp_flickr_api_key
+{
+	
+
+
+}
+
+
+.plainLink {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:108%;
+	color:navy;
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+#cs_tools_header{
+
+	display:block;
+	padding-left:5px;
+	background:url(../cs-content/images/header-background.gif);
+	height:65px;
+	
+	
+}
+
+.cs_field_list{
+
+	
+	display:block;
+	margin-left:20px;
+
+	margin-bottom:20px;
+	float:left;
+
+}
+
+.cs_tools_header_menu{
+
+	float:right;
+	position:relative;
+	top:0px;
+	background:url(../cs-content/images/header-menu-back.gif);
+	margin-right:15px;
+	padding:4px;
+	height:20px;
+	width:230px;
+	text-align:center;
+	
+}
+
+.cs_tools_header_menu_link
+{
+
+	margin-left:4px;
+	margin-right:4px;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	color:#276733;
+	text-decoration:none;
+}
+
+
+.cs_tools_sub_menu_item{
+	
+	font-family:"Trebuchet MS", trebuchet;
+    ;
+    font-weight:bold;
+    color:#555555;
+    text-decoration:none;
+ }
+ 
+ .cs_tools_sub_menu_item:hover{
+ 	
+    top:-2px;
+ 	height:28px;
+    color:#555555;
+    text-decoration:underline;
+ 
+ }
+ 
+ .cs_menu_row
+ {
+ 
+	display:block;
+    margin-right:auto;
+    margin-left:auto;
+    clear:both;
+	overflow:visible;
+	height:24px;
+	background-color:#33cccc;
+
+ }
+
+.cs_tools_menu_item_div
+{
+	
+	display:block;
+	float:left;
+	height:24px;
+	margin-left:2px;
+	margin-right:0px;
+	border-bottom: solid 1px #276733;
+	background-color:#276733;
+
+}
+
+
+a.cs_tools_menu_item
+{
+
+	text-decoration:none;
+	line-height:24px;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+	
+}
+
+a.cs_tools_menu_item_active
+{
+	
+	border-bottom:0px;
+	text-decoration:none;
+	line-height:22px;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+.cs_tools_menu_item_active_div
+{
+	
+	display:block;
+	float:left;
+	background-color:white;
+   	position:relative;
+   	top:2px;
+	height:22px;
+    margin-left:2px;
+	margin-right:0px;
+	border-bottom:0px;
+	
+}
+
+.cs_edit_list
+{
+	
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	background-color:#F0E68C;
+
+	height:auto;
+
+}
+
+.cs_edit_rows {	border-top:dotted 1px #555; margin:0px 10px 0px 10px;}
+
+.cs_album_list
+{
+	
+	padding:20px;
+
+	background-color:#F0E68C;
+	
+
+}
+
+.cs_sidebar{
+
+	float:left;
+	height:500px;
+	width:220px;
+	margin:20px 0px 0px 20px;
+	background-color:#F0E68C;
+}
+
+.cs_image_list{
+
+	margin-right:10px;
+	margin-left:10px;
+	overflow:auto;
+	height:470px;
+
+}
+
+.cs_edit_list_table
+{
+	
+	width:100%;
+	padding:0px;
+	spacing
+	
+}
+
+
+tr, td
+{
+	
+	vertical-align:middle;
+	padding:6px;
+
+}
+
+th{
+	vertical-align:middle;
+}
+
+.cs_edit_list_title
+{
+	
+	margin:0px 10px 0px 10px;
+	background-color:#F0E68C;
+	height:30px;
+	max-height:30px;
+	clear:both;
+	
+}
+.cs_sidebar_title
+{
+	
+	margin:0px 10px 4px 10px;
+	background-color:#F0E68C;
+	height:20px;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	
+}
+
+.cs_edit_list_header
+{
+	
+	
+	width:80px;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	
+}
+
+.cs_edit_list_header_delete
+{
+
+
+
+}
+
+.delete_header
+{
+
+	text-align:right;
+
+}
+
+.title_header
+{
+	
+	float:left;
+	text-align:left;
+	margin-left:18px;
+
+}
+
+.cs_edit_list_delete
+{
+	display:block;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+
+}
+
+h3 {font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; color:#941919; border-bottom:dotted 1px #33cccc; font-weight:normal;}
+h3 a {color:#1A6F7B; text-decoration:none;}
+h3 a:hover {color:#33CCCC;}
+h3 .h3l { color:#1A6F7B;}
+
+
+
+.cs_edit_list_add
+{
+	position:relative;
+	top:-20px;
+	display:block;
+	text-align:right;
+	float:right;
+	margin-left:20px;
+	width:auto;
+	
+}
+
+.cs_tools_a2
+{
+	
+	font-weight:bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	color:#A52A2A;
+	font-size:108%;
+
+}
+
+.cs_tools_a3
+{
+	display:inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#CD853F;
+	font-size:85%
+	text-decoration:none;
+}
+
+a.cs_tools_a2:hover
+{
+	color:#CD853F;
+}
+	
+
+.cs_edit_list_table_title
+{
+	display:block;
+	float:left;
+	width:auto;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+}
+
+.cs_edit_list_print_title 
+{
+
+}
+
+.cs_edit_list_delete:hover, .cs_edit_list_add:hover
+{
+	color:#CD853F;
+}
+
+.cs_tools_a3:hover
+{
+	color:#A52A2A;
+
+}
+.cs_category_select
+{
+	
+
+	margin-left:10px;
+	margin-right:8px;
+	font-family:"Trebuchet MS";
+	color:brown;
+	font-size:93%;
+	height:20px;
+	border:solid 1px brown;
+	
+}
+
+#cs_tool_div{padding:0px 20px 10px 20px;}
+#cs_loading_gif{position:relative; top:-3px; left:5px; display:none;}
+
+.cs_tools_image_thumb {width:125px; margin:10px;border:none;}
+
+.cs_tools_image_thumb_div {margin:10px; vertical-align:middle; display:inline-block; background: white; max-width:220; padding:2px; border:dotted 1px brown; text-decoration:none; height:auto; cursor:pointer}
+.cs_tools_image_thumb_div:hover {background-color:#F4E8ae;}
+.cs_tools_image_thumb_title {font-family:"trebuchet ms"; color:brown; font-size:108%;}
+	.loginBox{
+	text-align:left;
+	
+	height:140px;
+	width:180px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	
+	background:#33cccc;
+	
+
+}
+
+input{
+
+	margin-bottom:12px;
+		margin-left:10px;
+
+}
+.submit{
+
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	color: #276733;
+	border:solid 1px #276733;
+	background:white;
+
+}
+
+/*label{
+	margin-left:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#276733;
+}*/
+#csLogo{
+
+	width:190px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	text-align:center;
+
+}
+
+#f_log, #f_pass{
+
+	border:solid 1px #276733;
+	background:white;
+
+
+}
+.editable {
+    border: 1px solid black;
+    margin: .25em;
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+
+.uploadLink{cursor:pointer;}
+
+.cs_download_link{text-decoration:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:108%; text-align:left; display:inline-block; width:110px; color:black; margin-top:6px;}
+.cs_download_link:hover{text-decoration:underline;}
+
+.editor-hidden {
+    visibility: hidden;
+    top: -9999px;
+    left: -9999px;
+    position: absolute;
+}
+textarea {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-editcode span.yui-toolbar-icon {
+    background-image: url( http://yui.yahooapis.com/2.7.0/build/assets/skins/sam/html_editor.gif );
+    background-position: 0 1px;
+    left: 5px;
+}
+.yui-skin-sam .yui-toolbar-container .yui-button-editcode-selected span.yui-toolbar-icon {
+    background-image: url( http://yui.yahooapis.com/2.7.0/build/assets/skins/sam/html_editor.gif );
+    background-position: 0 1px;
+    left: 5px;
+}

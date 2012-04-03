@@ -1,0 +1,157 @@
+/*
+
+Theme: default
+Designer: notion:creative
+Designer URL: http://www.notioncreative.com
+Developer: worldwide digitial media
+Developer URL: http://www.worldwidedm.com
+Date: 9/29/2011
+Description: A simple rustic theme that features a unique home page layout.
+
+*/
+
+html{background:#white; color:#211f20;font-family:Tahoma, sans-serif; font-size:14px; text-align:justify;}
+body{width:1163px; margin:0px auto 0px auto;  padding:1px 0px 1px 0px;}
+#wrapper{width:960px; margin:24px auto 24px auto; background:white; position:relative; padding:1px 0px 1px 0px;}
+
+p{margin:0px 0px 8px 0px;}
+
+#wrapper p{line-height:23px; margin:0px 0px 8px 0px;}
+#home_content{margin-left:30px;width:640px;}
+a{color:#73212f; text-decoration:none; }
+a:hover{ text-decoration:underline;}
+
+ul.links{list-style:none; margin:0px; padding:0px;}
+ul.links p {display:none;}
+li.links {list-style:none; font-size:11px !important;}
+
+#header{width:960px; height:103px; margin:20px auto 0px auto;  border-top:solid 3px black;position:relative;}
+#header img.logo{position:relative; top:16px; margin-left:30px;}
+#header img.border{margin-top:21px;}
+#text1 {  color:white; width:388px; height:200px;  position:absolute; overflow:visible;}
+
+#footer{text-align:left; clear:both; width:960px; font-size:12px; margin:0px auto 0px auto; height:60px; position:relative; top:10px;padding-bottom:1px;}
+#footer img.fbicon{ margin-left:10px;}
+#footer a{text-decoration:none; color:#808285}
+#footer a.smicon {display:inline-block; vertical-align:middle; margin-top:1px;}
+#footer a:hover{color:#84343f;text-decoration:underline;}
+#footer img.nextlogo{margin-right:20px; float:right;margin-top:5px;}
+#footer label{font-size:14px; color:#009DDC;	 font-family:Verdana, Geneva, sans-serif; margin-right:14px; margin-left:40px;}
+#footer label:first-child{margin-left:20px;}
+#copyright{text-align:left; clear:both; width:922px; font-size:10px;  margin-top:8px;margin-left:30px;   }
+
+#copyright a:hover{color:#73212f;}
+
+#nav{width:510px; float:right; position:relative;overflow:hidden; height:24px; position:relative; top:67px; text-align:left;}
+
+#cs_nav a{font-family:Tahoma, sans-serif; font-size:12px; text-decoration:none; black; text-transform:lowercase; display:inline-block; height:20px; letter-spacing:.2em; font-weight:bold;}
+
+
+#cs_nav a { text-align:left;padding:0px; vertical-align:top; color:black;} 
+
+#cs_nav a:hover{color:#93454f; }
+#cs_nav a.active{color:#71232f; cursor:default;}
+#cs_nav a:last-child{margin-right:10px;}
+.sep{visibility:hidden; margin:0px 4px 0px 4px;}
+
+#pageback{ background:url(images/home-2.jpg); height:432px; width:918px; margin:20px auto 0px auto;}
+body>br, #pageback>br{display:inline-block; width:100%; height:38px;}
+
+#content {margin:00px auto 10px auto; width:595px; height:400px; clear:both; overflow:hidden; position:relative; text-align:justify;}
+#content.page {width:888px; height:auto; background:white; margin:0px auto 0px auto;}
+
+ul {margin:0px; padding:14px;}
+
+table ul {margin-left:12px;}
+table li{color:#009ddc;}
+
+table{padding:0px; border:0px;}
+table h3{margin-top:8px;}
+
+.home.copy {margin:0px 8px 0px 0px;}
+.home.copy:last-child {margin:0px}
+
+.home.copy .copy {width:341px; height:86px; background: #58595B; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:white;}
+
+#home3 .copy {width:220px; text-align:left;}
+
+.home.copy {float:left; width:341px;}
+
+#home3 {width:210px !important;}
+
+.home.copy .copy .pad {margin:0px 16px 0px 16px;}
+
+.home.copy .copy {padding:8px 0px 0px 0px;}
+
+/* font styles */
+
+.blue {color:#009ddc; font-family:Verdana, Geneva, sans-serif;}
+.arrows{font-size:21px; font-style:normal;}
+
+/* contact styles */
+table.contact, table.regional_info{margin-top:20px; width:100%; margin-bottom:20px;}
+table.regional_info{margin-bottom:00px;}
+td.map{background:#d2d2d2; width:360px;}
+td.map div {margin:4px; text-align:center; }
+div.info{width:490px;  text-align:justify; margin-left:18px; overflow:visible;}
+
+div.info div { font-size:12px !important;}
+
+.info.copy {float:left; margin-right:10px; font-size:12px; margin-left:0px; margin-top:40px; text-align:justify;}
+.info.copy b{font-size:11px;}
+.info.copy div{font-size:12px;}
+.copy.contact {margin-left:18px;}
+.message.contact{margin-left:0px; margin-right:0px;}
+
+.copy.contact a{color:black;}
+
+.info.copy.contact {background:#666; width:514px; margin-left:0px; height:90px; line-height:20px}
+.info.copy.contact .message{margin-left:24px; font-size:13px !important;}
+.info.copy.contact .copy{margin-left:24px; color:white; font-size:14px !important;}
+.info.copy.contact a{color:white;}
+
+.vestment{width:265px !important;}
+.lease{width:210px !important; margin-right:0px !important;}
+
+/* next inc page styles */
+#nextfooter{width:100%; height:90px; background:#009DDC; text-align:center; color:white !important;}
+#nextfooter h1{color:black; font-size:14px; margin:8px auto 4px auto;}
+#nextfooter h2{color:white; font-weight:bold; font-size:18px; margin:4px auto 4px auto; text-transform:uppercase;}
+
+/* regional info page styles */
+div.info.regional {width:330px; text-align:justify;}
+#regionalfooter{width:100%; height:174px; background:#666; text-align:center; color:white !important;}
+#regionalfooter h1{color:black; font-size:14px; margin:8px auto 4px auto;}
+#regionalfooter h2{color:white; font-weight:bold; font-size:18px; margin:4px auto 4px auto; text-transform:uppercase;}
+/* general page styles */
+strong.blue, a.maplinks{ font-weight:normal; font-size:13px; color:#009ddc;}
+strong.bigger{font-size:13px !important;}
+strong.smaller{font-size:11px !important;}
+strong.caps {text-transform:uppercase;}
+strong.blue.bigger.caps{}
+/* headers */
+h1 {font-size:32px; text-transform:uppercase; color:black; font-family:Tahoma, sans-serif;font-weight:normal; margin-top:-3px; margin-right:8px; letter-spacing:.1em;margin-bottom:12px;}
+h2 {font-size:20px; float:left; color:#231f20; display:block;   font-weight:normal; text-align:left; margin:-3px 8px 0px 0px;letter-spacing:2px;}
+h4 {font-family:Tahoma, sans-serif; color:#71232f; font-size:15px; margin:8px 0px 8px 0px;}
+h5.p1 img{margin-right:4px;}
+h6{font-size:13px; margin-bottom:1px; margin-top:8px;}
+
+#store h5{text-transform:uppercase; margin:0px;}
+#store select{margin-top:8px;}
+#store input[type="image"] {margin-top:8px;}
+
+table{empty-cells:show;}
+
+/*property styles*/
+div.properties{margin:12px; height:400px; overflow:auto;}
+div.properties>div{margin-bottom:8px; width:470px;}
+h3.property{text-transform:uppercase; font-size:11px; color:#666; font-weight:normal; margin:3px 0px 3px 0px;}
+div.property_description br:first-child{display:none;}
+div.property_description{margin-top:4px; line-height:18px;}
+a.maplinks{cursor:pointer;}
+.infowindow{text-align:left;}
+.infobox {font-size:10px; letter-spacing:none; text-transform:none; text-align:left; color:#009ddc; padding:6px; border:solid 1px #009ddc; border-radius:4px; }
+
+form, form * {visibility:visible; display:block}
+input {}
+select {}

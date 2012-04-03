@@ -1,0 +1,835 @@
+@charset "utf-8";
+/* CopyShop top-level tools styles */
+/* these are system and should not be changed unless you are just high and wanna do it */
+/* If you want this size in pixels (px)  	Declare this percent (%)
+10 	77
+11 	85
+12 	93 (was 93)
+13 	100
+14 	108 (was 107)
+15 	116 (was 114)
+16 	123.1 (was 122)
+17 	131 (was 129)
+18 	138.5 (was 136)
+19 	146.5 (was 144)
+20 	153.9 (was 152)
+21 	161.6 (was 159)
+22 	167
+23 	174
+24 	182
+25 	189
+26 	197 */
+
+*{margin:0;padding:0;}
+
+body{
+	
+	height:100%;
+}
+
+html{height:100%;}
+
+input[type="submit"], button, input[type="button"]{height:28px; background-image:url('images/ui-background-1.png'); background-position:center left; margin:0px 0px 4px 4px; border:solid 1px #ccc; border-radius:4px; padding:0px 8px 0px 8px; line-height:28px; color:white; text-align:center;}
+
+
+*{text-align:left;}
+.cs_status_default{width:100px; height:20px; text-align:center; line-height:20px; background:beige; float:right; border:dotted 1px brown;}
+
+.cs_text_input
+{
+	display:block;
+	font-family:"Trebuchet MS";
+	font-size:100%;
+	margin-left:4px;
+	padding:4px;
+	clear:left;
+
+}
+
+/*.mceEditor {position:relative; left:10px; width:500px; height:200px;}*/
+
+.cs_tools_timestamp
+{
+
+	font-weight:normal;
+	font-size:60%;
+	float:right;
+	margin-top:10px;
+	verticle-align:bottom;
+	display:inline-block;
+	color:#AA6;
+
+}
+
+#cs_tool_div .cs_tools_timestamp
+{
+	position:relative;
+	/*top:25px;*/
+}
+
+.cs_text_label
+{
+	text-transform:capitalize;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	font-weight:bold;
+	margin-top:20px;
+	color:#aa7;
+	clear:both;
+	
+}
+
+div.cs_image_preview{
+
+	padding:10px;
+	border:dotted 1px brown;
+	
+	
+	position:absolute;
+	left:550px;
+	top:200px;
+	
+}
+
+img.cs_image_preview{
+
+	width:200px;
+	max-width:400px;
+	max-height:350px;
+	
+
+}
+
+.cs_edit_button
+{
+
+}
+
+.cs_edit_row{ cursor:pointer;  height:30px; min-width:400px;	border-bottom:dotted 1px #555;}
+
+.cs_edit_row:last-child{ cursor:pointer;  height:30px; min-width:400px;	border-bottom:none; border-radius:0px 0px 8px 8px}
+
+.cs_edit_row_delete_check{ float:left; position:relative; top: 6px; left:4px;}
+
+.cs_button_form{
+	
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	display:inline-block;
+	background:none;
+	text-align:center;
+	line-height:20px;
+	color:#996
+	
+}
+
+.cs_button_form{margin:4px 0px 4px 0px}
+
+.cs_button_form:hover{
+	cursor:pointer;
+	color:brown;
+	
+}
+
+.cs_buttom_form .duplicate {padding-top:8px;}
+
+
+.cs_image_thumb_header{
+
+	
+	height:16px;
+
+	width:100%;
+
+}
+
+form.cs_image_delete{
+
+	display:inline-block;
+	height:20px;
+	width:20px;
+	float:right;
+
+}	
+
+input[type="submit"].cs_edit_row_delete, input[type="submit"].cs_edit_row_edit_button
+{
+	cursor:pointer;
+	margin:0px auto 0px auto;
+	text-align:center;
+	font-family:"trebuchet ms";
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	background:none;
+	border-style:none;
+	color:#996;
+	width:100%;
+
+}
+
+.cs_edit_row_delete:hover {color:white;}
+
+a.cs_edit_row_delete_button:hover, a.cs_edit_row_edit_button:hover{
+
+	
+	color:#ffffff;
+	
+
+}
+
+a.cs_edit_row_title
+{
+
+	display:inline;
+	float:left;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	font-weight:bold;
+	color:#555;
+	width:auto;
+	margin-left:10px;
+	margin-right:20px;	
+	text-decoration:none;
+	line-height:30px;
+	min-width:300px;
+	
+
+}
+
+
+.bg0{background:white;}
+.bg0:hover{background:#eee}
+.bg1{background-color:#efefef;}
+.bg3{background-color:#eec;}
+
+.cs_delete_button
+{
+
+}
+
+
+
+.cs_yes_no
+{
+	display:block;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	margin-top:4px;
+	margin-bottom:4px;
+	width:100px;
+	clear:right;
+}
+
+.cs_radio_no
+{
+	margin-left:10px;
+	
+}
+
+.cs_savetools
+{
+
+	position:relative;
+	float:right;
+	
+	
+}
+
+#cs_tools_footer{
+
+	 position:relative; 
+	 text-align:center; 
+	
+	 font-family:"Trebuchet MS";
+	 font-size:93%;
+	 font-weight:bold;
+	 color:#666;
+	 text-align:center;
+	
+	 margin-top:20px;
+	 clear:both;
+	 
+	 
+ }
+
+#inp_flickr_api_key
+{
+	
+
+
+}
+
+
+.plainLink {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:108%;
+	color:navy;
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+#cs_tools_header{
+
+	display:block;
+	padding-left:5px;
+	background:url(../cs-content/images/header-background.gif);
+	height:65px;
+	
+	
+}
+
+.cs_field_list{
+
+	
+	display:block;
+	margin-left:20px;
+
+	margin-bottom:20px;
+	float:left;
+
+}
+
+.cs_tools_header_menu{
+
+	float:right;
+	position:relative;
+	top:0px;
+	background:url(../cs-content/images/header-menu-back.gif);
+	margin-right:15px;
+
+	height:32px;
+	
+	text-align:center;
+	
+}
+
+.version, .slogan, .welcome {font-size:85%; color:white;}
+.slogan{font-style:italic}
+.version{padding-top:7px;}
+
+
+.cs_tools_header_menu_link
+{
+
+	margin-left:4px;
+	margin-right:4px;
+	font-family:"Trebuchet MS";
+	font-size:93%;
+	color:#663;
+	text-decoration:none;
+}
+
+
+.cs_tools_sub_menu_item{
+	
+	font-family:"Trebuchet MS", trebuchet;
+    ;
+    font-weight:bold;
+    color:#555555;
+    text-decoration:none;
+ }
+ 
+ .cs_tools_sub_menu_item:hover{
+ 	
+    top:-2px;
+ 	height:28px;
+    color:#555555;
+    text-decoration:underline;
+ 
+ }
+ 
+ .cs_menu_row
+ {
+ 
+	display:block;
+    margin-right:auto;
+    margin-left:auto;
+    clear:both;
+	overflow:visible;
+	height:24px;
+	background-color:#999;
+
+ }
+
+.cs_tools_menu_item_div
+{
+	
+	display:block;
+	float:left;
+	height:24px;
+	margin-left:2px;
+	margin-right:0px;
+	
+	background-color:#cca;
+	border-radius:4px 4px 0px 0px;
+}
+
+
+a.cs_tools_menu_item
+{
+
+	text-decoration:none;
+	line-height:24px;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+	
+	
+}
+
+a.cs_tools_menu_item_active
+{
+	
+	border-bottom:0px;
+	text-decoration:none;
+	line-height:22px;
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;
+	
+	
+}
+
+.cs_tools_menu_item_active_div
+{
+	
+	display:block;
+	float:left;
+	background-color:white;
+   	position:relative;
+   	top:2px;
+	height:22px;
+    margin-left:2px;
+	margin-right:0px;
+	border-bottom:0px;
+	border-radius:4px 4px 0px 0px;
+}
+
+.cs_edit_list
+{
+	
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	background-color:#F0E68C;
+	border-radius: 8px;
+	height:auto;
+
+}
+
+.cs_edit_rows {	 margin:0px 0px 0px 00px;}
+
+.cs_album_list
+{
+	
+	padding:20px;
+
+	background-color:#F0E68C;
+	
+
+}
+
+.cs_sidebar{
+
+	
+	float:right;
+	height:500px;
+	width:220px;
+	margin:20px 0px 0px 20px;
+	background-color:#F0E68C;
+}
+
+.cs_image_list{
+
+	margin-right:10px;
+	margin-left:10px;
+	overflow:auto;
+	height:470px;
+
+}
+
+.cs_edit_list_table
+{
+	
+	width:100%;
+	padding:0px;
+
+	
+}
+
+
+tr, td
+{
+	
+	vertical-align:middle;
+	padding:6px;
+
+}
+
+th{
+	vertical-align:middle;
+}
+
+.cs_edit_list_title
+{
+	
+	margin:0px 0px 0px 0px;
+	background:url(images/ui-background-1.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-position:0px 5px;
+
+	
+	height:30px;
+	max-height:30px;
+	clear:both;
+	border-radius:8px 8px 0px 0px;
+	line-height:30px;
+	padding-left:8px;
+	
+}
+
+.cs_edit_list_title.empty{border-radius:8px 8px 8px 8px;}
+.cs_sidebar_title
+{
+	
+	margin:0px 10px 4px 10px;
+	background-color:#F0E68C;
+	height:20px;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	
+}
+
+.cs_edit_list_header
+{
+	
+	
+	width:80px;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	
+}
+
+.cs_edit_list_header_delete
+{
+
+
+
+}
+
+.delete_header
+{
+
+	text-align:right;
+
+}
+
+.title_header
+{
+	
+	float:left;
+	text-align:left;
+	margin-left:18px;
+
+}
+
+.cs_edit_list_delete
+{
+	display:block;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+
+}
+
+h3 {font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; color:#555; border-bottom:dotted 1px #cca; font-weight:normal; margin-top:10px; margin-bottom:8px;}
+h3 a {color:#cca; text-decoration:underline;}
+h3 a:hover {color:#33CCCC;}
+h3 .h3l { color:#1A6F7B;}
+
+h2 {font-family:Georgia, "Times New Roman", Times, serif; font-size:18px; color:#555; border-bottom:dotted 1px #cca;  font-weight:normal; margin-top:10px; margin-bottom:8px;}
+
+
+
+.cs_edit_list_add
+{
+	position:relative;
+	
+	display:block;
+	width:16px;
+	height:16px;
+	float:right;
+	margin: 4px 20px 0px 0px !important;
+	line-height:16px;
+	border:solid 1px #eee;
+	border-right:solid 1px #aaa;
+	border-bottom:solid 1px #aaa;
+	background:url(images/ui-background-1.png) center left;
+	border-radius:4px;
+	padding:2px;
+	color:white!important;
+	text-decoration:none!important;
+	font-size:16px!important;
+	text-align:center;
+	
+}
+
+.cs_tools_a2
+{
+	margin-top:20px;
+	font-weight:bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:underline;
+	color:#996;
+	font-size:85%;
+
+}
+
+h3 a{text-decoration:none;}
+.cs_tools_a3
+{
+	display:inline;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#996;
+	font-size:85%
+	text-decoration:none;
+}
+#tool_sidebar{width:200px; margin-left:10px; float:right; }
+a.cs_tools_a2:hover
+{
+	color:#cca;
+}
+	
+
+.cs_edit_list_table_title
+{
+	display:block;
+	float:left;
+	width:auto;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.cs_edit_list_print_title 
+{
+
+}
+
+.cs_edit_list_delete:hover, .cs_edit_list_add:hover
+{
+	color:#CD853F;
+}
+
+.cs_tools_a3:hover
+{
+	color:#A52A2A;
+
+}
+.cs_category_select
+{
+	
+
+	margin-left:10px;
+	margin-right:8px;
+	font-family:"Trebuchet MS";
+	color:brown;
+	font-size:93%;
+	height:20px;
+	border:solid 1px brown;
+	
+}
+
+#cs_tool_div{padding:0px 20px 00px 20px;}
+#cs_liner{}
+#cs_loading_gif{position:relative; top:-3px; left:5px; display:none;}
+
+.cs_tools_image_thumb {width:100px; margin:10px;border:none;}
+
+.cs_tools_image_thumb_div {margin:10px; vertical-align:middle; display:inline-block;  background: white;  padding:2px; border-right:solid 1px gray; border-bottom:solid 1px gray; text-decoration:none;  cursor:pointer; width:120px;}
+/*.cs_tools_image_thumb_div:hover {background-color:#F4E8ae;}*/
+.cs_tools_image_thumb_title {font-family:"trebuchet ms"; color:brown; font-size:93%; text-align:center; width:100%; margin-bottom:12px;}
+	.loginBox{
+	text-align:left;
+	
+	height:140px;
+	width:180px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	
+	background:#33cccc;
+	
+
+}
+
+input{
+
+	margin-bottom:12px;
+		margin-left:10px;
+
+}
+.submit{
+
+	font-family:"Trebuchet MS";
+	font-size:108%;
+	color: #276733;
+	border:solid 1px #276733;
+	background:white;
+
+}
+
+/*label{
+	margin-left:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#276733;
+}*/
+#csLogo{
+
+	width:190px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	text-align:center;
+
+}
+
+#f_log, #f_pass{
+
+	border:solid 1px #276733;
+	background:white;
+
+
+}
+.editable {
+    border: 1px solid black;
+    margin: .25em;
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+
+.uploadLink{cursor:pointer;}
+
+.cs_download_link{text-decoration:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:108%; text-align:left; display:inline-block; width:110px; color:black; margin-top:6px;}
+.cs_download_link:hover{text-decoration:underline;}
+
+.editor-hidden {
+    visibility: hidden;
+    top: -9999px;
+    left: -9999px;
+    position: absolute;
+}
+textarea {
+  /*  border: 0;
+    margin: 0;
+    padding: 0;*/
+	clear:both;
+	display:block;
+}
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-editcode span.yui-toolbar-icon {
+    background-image: url( http://yui.yahooapis.com/2.7.0/build/assets/skins/sam/html_editor.gif );
+    background-position: 0 1px;
+    left: 5px;
+}
+.yui-skin-sam .yui-toolbar-container .yui-button-editcode-selected span.yui-toolbar-icon {
+    background-image: url( http://yui.yahooapis.com/2.7.0/build/assets/skins/sam/html_editor.gif );
+    background-position: 0 1px;
+    left: 5px;
+}
+
+em{font-size:12px; font-style:italic; display:block; height:20px; font-family:Georgia, "Times New Roman", Times, serif; line-height:20px; color:#aaa}
+
+input[type="text"].required, textarea.required, select.required, input[required] {background:#ddd}
+
+/* general ui styles */
+div.uiframe, div.cs_edit_list{border:solid 1px #ccc; border-radius: 8px; background:none; padding:0px;}
+
+.uiframe img{clear:left; margin-bottom:20px; display:inline;}
+
+.uiframe.small{width:200px;}
+.uiframe ul{width:188px; margin:4px auto 4px auto; display:block;}
+.uiframe h2 {background:url(images/ui-background-1.png) !important; padding-left:4px; margin-bottom:0px;}
+
+.uiframe h2 .cs_edit_list_add{position:relative; margin-top:-5px !important;}
+
+div.options_wrapper div{margin:8px auto 8px auto; width:188px;}
+
+em.instruct{width:600px;}
+
+
+/* pages tool */
+div.tab {display:none;}
+div.tab#content{display:block}
+#div_pages{position:relative;}
+
+#div_pages input[type=submit]{top:-60px;}
+
+
+/* editor styles */
+#list_div {width:200px; float:left;}
+#editor_form {float:left; margin-right:20px; display:block;}
+#editor_form textarea {width:700px; height:600px; border:solid 1px #aaa; border-radius:3px; background:#efefef;}
+
+#list_div ul li{margin:4px 0px 4px 0px;}
+#list_div ul li a{color:#369;}
+#list_div ul li a:hover{color:#aaa;}
+
+	
+
+/* themes styles */
+
+div.uiframe.theme {min-height:200px;}
+div.uiframe.theme img{float:left; margin:8px 20px 10px 20px;}
+
+
+#list_div.themes{width:100%;}
+
+div.uiframe.theme.thumb {min-height:0px; padding:8px; background:#eee; float:left !important; margin-right:20px; clear:none;}
+div.uiframe.theme.thumb:hover {background:white;}
+#list_div.themes{clear:both;}
+
+/* menus styles */
+
+div.uiframe.list.menus{width:200px;  margin-right:20px; float:left;}
+div.active table tbody td {vertical-align:middle;}
+div.active table tbody tr{background:#eee}
+div.active table tbody tr:hover{background:#ddd;}
+div.active table thead {background:url(images/ui-background-1.png) 0px -30px; border-bottom:solid 1px white;}
+div.uiframe.active{ position:relative; overflow:hidden;}
+div.active table{margin:0px auto 0px auto;}
+div.active table tbody tr{border-bottom:dotted 1px #ccc;}
+div.active table tbody tr:last-child{border-bottom:none;}
+
+div.active table input[type="text"] { border:solid 1px #ccc; background:white; border-radius:4px; height:20px; font-size:14px; margin:0px; padding:4px;}
+div.active table input[type="submit"] { height:22px; width:22px; margin-top:0px;}
+
+.pages.options.tab{padding:10px; background:#efefef; border-radius:16px;}
+
+#swilTerminal{width:460px;  margin:0px auto 0px auto; position:absolute; right:0px; top:85px;}
+#swilTerminal form{padding:12px;}

@@ -1,0 +1,238 @@
+/*
+
+Theme: Peter Lowell's 2012
+Designer: WorldWide Digital Media
+Designer URL: http://www.worldwidedm.com
+Developer: WorldWide Digital Media
+Developer URL: http://www.worldwidedm.com
+Date: 02/01/2012
+Description: A fresh, food-focused theme for Peter Lowell's west county organic.
+
+*/
+
+@font-face {
+    font-family: 'DakotaRegular';
+    src: url('fonts/SecretScryptTwo.eot');
+    src: url('fonts/SecretScryptTwo.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SecretScryptTwo.woff') format('woff'),
+         url('fonts/SecretScryptTwo.ttf') format('truetype'),
+         url('fonts/SecretScryptTwo.svg#DakotaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/GothamLight.eot');
+    src: url('fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GothamLight.woff') format('woff'),
+         url('fonts/GothamLight.ttf') format('truetype'),
+         url('fonts/GothamLight.svg#DakotaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('fonts/GothamMedium.eot');
+    src: url('fonts/GothamMedium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GothamMedium.woff') format('woff'),
+         url('fonts/GothamMedium.ttf') format('truetype'),
+         url('fonts/GothamMedium.svg#DakotaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'GothamItalic';
+    src: url('fonts/GothamMedium-Italic.eot');
+    src: url('fonts/GothamMedium-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GothamMedium-Italic.woff') format('woff'),
+         url('fonts/GothamMedium-Italic.ttf') format('truetype'),
+         url('fonts/GothamMedium-Italic.svg#DakotaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+html, body {
+  font-size: 90.5%;
+  text-align: left;
+  letter-spacing: 0.07em;
+  font-family: "Gotham", sans-serif;
+  line-height:normal; 
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color:black;
+}
+
+
+
+header{width:980px; height:85px; margin:24px auto;}
+header img{}
+
+a { color: #990033;}
+a:visited { color: #990033; }
+a:hover { color: #ff0000; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+h1, h2, h3{font-family: "DakotaRegular", cursive; font-size:24px; color: #c36a42;font-weight:normal; letter-spacing:.1em; margin:1em 0 1em 0}
+h2{font-size:20px; margin-bottom:8px;}
+h3{font-size:16px; margin-bottom:4px;}
+h1{margin:.1em 0 .2em 0;}
+
+a h1, a h2, a h3 {color:#990033}
+
+a h1:hover, a h2:hover, a h3:hover { color: #c36a42; }
+
+
+#bg-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1368px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 980px;
+  min-height: 400px;
+  margin: 6px auto;
+  color: #333;
+ 
+}
+
+#sidebar {width:170px; float:right; margin-left:8px; padding:10px; text-align:center; font-family:"Gotham", sans-serif; text-transform:uppercase; font-size:11px;}
+#sidebar h1, #sidebar h2, #sidebar h3{text-transform:none;}
+#sidebar h3{text-align:left;}
+
+.background{ background:rgba(247,247,237,0.85); margin-bottom:20px; border-radius:4px; border:solid 1px tan;}
+
+#sidebar.background{background:rgba(237,237,217,0.70);}
+
+#content {width:690px;   float:right; margin-left:8px; padding:3.2%; letter-spacing:1.2px; line-height:1.5em;}
+
+#content.wide {width:860px;-moz-column-count: 2;
+-moz-column-gap: 30px;
+-webkit-column-count: 2;
+-webkit-column-gap: 30px;
+column-count: 2;
+column-gap:  30px;}
+
+.item img{margin:0px 6px 6px 0px;}
+
+
+
+#nav{width:100px; position:relative; top:16px;overflow:visible; white-space: nowrap; overflow:visible;}
+#cs_nav{width:100px; margin-right:20px;font-weight:normal; overflow:visible;}
+#cs_nav a{display:block;  text-align:right; height:20px; font-family:"Gotham", sans-serif; text-transform:uppercase; text-decoration: none; color:black; margin-bottom:6px; font-size:13px;
+-webkit-transition: color .25s ease-out;
+-moz-transition: color .25s ease-out;
+-o-transition: color .25s ease-out;
+transition: color .25s ease-out;}
+#cs_nav a.active{font-family:"GothamBold", serif; text-transform:uppercase;font-size:14px; margin:6px auto 15px auto; line-height:25px;color: #c36a42;}
+#cs_nav a.normal:hover{  color: #c36a42; }
+#cs_nav span{display:none;}
+
+
+
+#date .number, #date .monthyear{font-size:80px; font-family:Arial, Helvetica, sans-serif; color:white;}
+#date {width:140px; height:85%; text-align:center; border:solid 4px white; background:#666; margin:0px auto 6px auto; opacity:.7; filter:alpha(opacity=70)}
+#date hr {height:2px; width:80%; background:white; margin:0px auto 12px auto;}
+#date .monthyear{font-size:20px; text-transform:uppercase;}
+
+#specials{text-align:center; padding:8px;}
+
+.dakota{font-family:'DakotaRegular', sans-serif;}
+
+.medium{font-size:16px;}
+
+.burgundy{color:#7e0d0c;}
+
+#photoclip {text-align:center; width:100%;}
+#content img, #photoclip img{ border-color: white; border-style: solid; border-width: 0px; margin-right:3px; margin-bottom:4px;}
+#photoclip img:nth-last-child(3){border:none !important; clear:both; display:block; margin:2px auto -4px auto; -moz-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-webkit-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-o-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-ms-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg); z-index:99; left:6px;}
+
+#photoclip img:nth-last-child(2){clear:both; display:block; margin:2px auto -4px auto; -moz-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-webkit-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-o-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+-ms-transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg);
+transform: scale(1) rotate(8deg) translate(0px, 0px) skew(0deg, 0deg); z-index:98; position:relative; left:-6px; top:-2px;}
+
+#photoclip img:last-child{clear:both; display:block; margin:2px auto -4px auto; -moz-transform: scale(1) rotate(-10deg) translate(0px, 0px) skew(0deg, 0deg);
+-webkit-transform: scale(1) rotate(-10deg) translate(0px, 0px) skew(0deg, 0deg);
+-o-transform: scale(1) rotate(-10deg) translate(0px, 0px) skew(0deg, 0deg);
+-ms-transform: scale(1) rotate(-10deg) translate(0px, 0px) skew(0deg, 0deg);
+transform: scale(1) rotate(-10deg) translate(0px, 0px) skew(0deg, 0deg); z-index:97; position:relative; left:9px; top:-10px}
+
+
+.date, .title, .source{font-weight:bold; display:inline-block;margin-right:8px;}
+
+a {color:#990033; text-decoration:none;}
+
+
+#content hr{background-color:none;border:none;border-bottom:dashed 1px brown; margin:24px 0px 24px 0px}
+
+div.event.item, div.press.item{margin-bottom:30px; clear:both;overflow: hidden;}
+.excerpt{margin-bottom:12px;}
+.item label.date, .item label.title, .item .source{font-weight:bold; font-size:16px;}
+.item .title, .item .source{}
+.item img{margin:0px 12px 12px 0px;}
+
+div.cs_copy_content {-moz-column-count: 2 !important;
+-moz-column-gap:24px;
+-webkit-column-count: 2 !important;
+-webkit-column-gap:24px;
+column-count: 2 !important;
+column-gap:24px;}
+
+.Philosophy #content.wide {-moz-column-count:1 ; -webkit-column-count:1 ; column-count:1 ;}
+.press.item p, .event.item p{margin-top:6px;}
+
+.press .date {display:none;}
+
+.food_menu.item .name{ font-size:16px; font-weight:bold;  margin-bottom:8px;}
+.food_menu.item {position:relative;}
+.food_menu a.noborder{position:absolute; z-index:99; left:588px; top:36px;}
+.noborder img, img.noborder{border:none !important;}
+
+.food_menu.item p.description {   padding:1.75%; box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing: border-box;}
+/* .food_menu.item p.description {  background:rgba(255, 255, 255, 0.95); z-index:9999; display:inline-block; width:100%; height:80px; position:relative; top:-84px; padding:1.75%; box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing: border-box;}*/
+.food_menu.image{min-width:100%}
+.food_menu.item{ }
+
+#sidebar td{height:10px; font-size:10px; text-align:left;font-size:8px;}
+#sidebar td:first-child{width:50px;}
+
+div.item img{margin-right:6px !important; margin-bottom:6px; }
+
+#content img{max-width:100%;}
+
+.food_menu a.pdf {display:none;}
+
+.links.item{display:inline-block;}
+.links.item:hover{border:solid 1px biege; border-radius:4px;}
+.links.list, .cs_list{-moz-column-count: 2 !important;
+-moz-column-gap:24px;
+-webkit-column-count: 2 !important;
+-webkit-column-gap:24px;
+column-count: 2 !important;
+column-gap:24px;}
+.cs_list_item, .press.item{column-break-inside:avoid;-moz-column-break-inside:avoid;-webkit-column-break-inside:avoid;}

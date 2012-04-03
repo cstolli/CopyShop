@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document 
+
+Plugin: links
+Author: Chris Stoll
+
+
+*/
+
+
+
+.link_name { font-size:16px; color:#008800; font-weight:bold; color:orange; float:left;  width:300px; vertical-align:middle; }
+
+
+.link_address, .link_description{color:#66C; float:left; margin-left:20px; font-size:14px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:blue; font-weight:normal; vertical-align:middle;}
+
+
+a.link_div{padding-top:0px;text-decoration:none; display:block; background:none; height:30px; padding:10px; font-family:Comic Sans MS; font-size:16px; font-weight:bold; vertical-align:bottom;}
+
+a.link_div.alt{background:#ffefef;}
+
+a.link_div:hover{background:#ffffcc}
+
+a.link_div>div{padding-top:6px;}

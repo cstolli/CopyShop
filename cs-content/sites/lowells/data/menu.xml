@@ -1,0 +1,175 @@
+<services>
+<cafe>
+    <menu>
+        <label><![CDATA[ABOUT OUR CAFE]]></label>
+        <text><![CDATA[Each morning we'll bring you freshly baked organic bagels, plenty of organic eggs and a fully loaded macrobiotic breakfast (including miso soup and old-fashioned oatmeal). We'll offer the highest quality, small production coffee drinks and teas. Feel free to check the internet on our wireless provider, read our array of daily newspapers and weekly magazines, or simply fuel up for the day while relaxing in a warm and upbeat environment.<br>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[M-F BREAKFAST MENU]]></label>
+        <text><![CDATA[<br><b>Bagel sandwich with BBQ[/header] tempeh, fried egg and caramelized onion $5.5<br><br><b>Bagel sandwich with[/header] house cured King Salmon gravlox, garden-herb cream cheese, shaved onion and arugula $7.5<br><br><b>Basic Breakfast -[/header] Two eggs with potatoes, toast and bacon 7.<br><br><b>Pizza di Giorno -[/header] Thin crust pizza with braised greens, caramalized onion, fontina cheese and a Baked Egg 14.<br><br><b>Eggs in Boca -[/header] Two organic eggs fried inside Bennet Ridge’s sourdough. Served with Rustic Greens and a tomato ragu <b>9.5 Prosciutto 2.5 House Pork Sausage 2.5[/header]<br><br><b>Fritatta of the day -[/header] Served with Sander’s Field Farm hearty greens, tomato ragu and Parmigiano. 9<br><br><b>Poached Eggs -[/header] over polenta with braised greens, parmigiano and bread crumbs 9.5<br><br><b>The Morning Scramble -[/header] Eggs done chef’s way with local organic potatoes and Bennett Ridge toast 9.<br><br><b>The Tummy Warmer -[/header] Our beans and greens with two baked eggs, bread crumbs and parmigiano reggiano <b>9.5 Add House Pork Sausage 2.5[/header]<br><br><b>Toasted Bennett Ridge Breads -[/header] with organic Gabriel Farm jam and butter 5.5<br><br><b>Fresh Baked Scone -[/header] Served toasted with butter, Gabriel Farms Jam, fresh fruit and cream 7.</b></b></b></b></b></b></b></b></b></b></b></b></b>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[WEEKEND BRUNCH]]></label>
+        <text><![CDATA[[header]EGGS[/header] <br><br>[header]Basic Breakfast -[/header] Two eggs w/ potatoes, toast and bacon 7<br><br>[header]Eggs in Boca -[/header] Two homegrown organic eggs fried inside Bennet Ridge’s sourdough. Served over Sanders greens with a tomato ragu 9.5  add Prosciutto 2.5  add Pork Sausage  2.5<br><br>[header]Fritatta of the day -[/header] Served with hearty greens from Sanders Farm and roasted artisan potatoes 9<br><br>[header]Da Hash -[/header] Two Poached eggs over a potato, escarole and smoked Salmon hash with Bennett Ridge toast 10.5<br><br>[header]Poached Eggs -[/header] over polenta with braised greens 9.5 <br><br>[header]The Morning Scramble -[/header] Eggs done chef’s way with local organic potatoes and Bennett Ridge toast 9<br><br>[header]The Tummy Warmer -[/header] Our beans and greens with two baked eggs, bread crumbs and parmigiano reggiano 9.5<br><br>[header]On the Other Hand[/header]<br><br>[header]Toasted Bennett Valley Breads -[/header]with organic Gabrielle Farms jams and butter 5.5<br><br>[header]Fresh Baked Scone -[/header] Served toasted with butter, Gabriel Farms Jam, fresh fruit and cream 7<br><br>[header]Challah French Toast -[/header] with Local and Seasonal fruits, butter and Organic Mapple Syrup 8<br><br>[header]Lowell’s Scramble -[/header] Curried tofu scramble with escarole, shaved red onion and cannelini beans. Served with toast 9.5<br><br>[header]Granola with Fresh Fruit -[/header] Our house made oat, nut and dried fruit granola with Strauss yogurt and seasonal fruit 9<br><br>[header]Toasted House made Bagel and Lox -[/header]<br>served open faced with herbed cream cheese, capers, spring onions,  Taylor Maiden greens and Lox 10.5<br><br>[header]PLUS SALADS, PIZZAS, PASTA AND FISH FROM REGULAR MENU[/header]]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[BRUNCH SPECIALS]]></label>
+        <text><![CDATA[Tortilla Espanola<br>Rainbows End Duck Egg Tortilla with Roasted Potatoes &amp; Caramelized Onions served with Spicy Aioli, Arugula, Goat Cheese and Mint Pesto 10<br><br>Sausage and Eggs<br>House Made Southern Style Sausage with French Lentils, Dandelion Greens, Piquillo Peperonata and Two Poached Eggs 14<br><br>Soup<br><br>Spring Onion, Escarole and Tomato cup 5 bowl 7<br><br>Pizza  <br><br>Pizza Bianca<br>Shaved Asparagus, Meyer Lemon, Arugula Red Onion, Calabrian Chilies, Fresh Chevre and Local Egg 16<br><br>Fish &amp; Pasta    <br><br>Penne<br>Shaved Asparagus, Bacon, Green Garlic and Meyer Lemon Finished with Parmigiano Reggiano 16<br><br>Pesce del Giorno <br>Alaskan Rock Cod, Heirloom Potatoes Fennel and Arugula with Preserved Lemon Vinaigrette 16 ]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[COFFEE TEA JUICE BEER]]></label>
+        <text><![CDATA[<b>Beers[/header]<br><br><b>On Tap[/header]<br>Indian Pale Ale, Greenflash Brewing SD 5 <br>Special Beer, Moonlight Brewing, SR 6<br><br><b>Bottled[/header]<br>Gold, Schønramer 500ml DE O-8<br>Lager Style Kloster Beer 1pint DE O-8<br>Edel-Weisse, Schneider 500ml DE O-8<br>Delirium, Double, Tremens BE-8<br>Hopus, Bitter Blonde, Lefebvre BE-7.5<br>Saison Ale, Foret 375ml BE O-9<br>French Red Ale, Bier Sur Lie, Gavroche FR-8<br>Non-Alcohol Bitburger DE-4<br><br><b>Juices[/header]<br>Gabriel Farms Apple-Asian Pear 2.5<br>Hibiscus Agua Fresca 3 <br>Natural Sodas 3<br>Fizzy Lizzy 100% Fruit Juices 3<br>Grape/Cran/Pineapple/Ras Lemon/Grapefruit<br>Pellegrino Sparkling Water sm 3 lg 6<br>Herbal or Black iced tea 3<br><br><br><b>Coffee and Tea[/header]<br>8am-4pm French Press Coffee 2 <br>Refill 1 <br>Americano 2 <br>Espresso 2 <br>Cappucino 2.5 <br>Latté 3  <br>House Chai Latte 3/4<br><br><br><b>ECCO CAFFE[/header]<br>Our favorite local producer of artisan coffee, they source from boutique, socially responsible farmers world wide. All their coffee is roasted in the Northern Italian tradition.<br><br><b>Pot o' Tea[/header]<br>-Chamomile/Rose/Peppermint<br>-Hibiscus/Ginger/Lemongrass<br>-Rooibus Chai <br>-Ancient Forest Green<br>-Occidental: Black Tea/Peppermint<br>-Irish Breakfast  <br>-Earl Grey<br>-Oolong  <br>-Yerba Mate<br><br><br></b></b></b></b></b></b></b>]]></text>
+    </menu>
+</cafe>
+<deli>
+    <menu>
+        <label><![CDATA[ABOUT OUR LUNCH]]></label>
+        <text><![CDATA[Our lunch focuses on fast service for both dine-in and take-out customers. Daily, we'll offer two seasonal soups, a number of fresh greens, pizzas, and our signature Macro Bowl (rice, seasonal greens, protein, and sauce). Daily specials will include a variety of hot and cold sandwiches, pastas and fish. We continue to encourage our customers to relax and enjoy the space, including our outdoor patio seating, which will be available for use year-round (and best, of course, when the weather is nice).]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[SEASONAL SOUPS]]></label>
+        <text><![CDATA[Cup $4 Bowl $6<br><br>Year-round we bring you our seasonal version of the Minestrone, Ribollita, or Aquacotta, all versions of classic Italian recipes.<br><br>[header]Minestrone[/header] with barlotti beans, cavolo nero, swiss chard, napa cabbage and tomatoes.<br><br>[header]Our second soup[/header] will traverse cultures and continents, brought to you by the whims of Chef Daniel Kedan.<br>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[GREENS]]></label>
+        <text><![CDATA[<b>Individual $5 Family $9[/header]<br><br>We offer a daily selection of salads and warm greens, Chosen with the intention to represent a seasonal blend, they will always be the freshest northern Cali greens available.<br><br><b>PL's Escarole Caesar[/header] Young escarole with fire roasted croutons, caesar dressing and Reggiano cheese<br><br><b>Gemischter Salat[/header] Bohemian Farm Collective winter greens, root vegetables, toasted pepitas and balsamic vinaigrette.  [header]Add goat cheese for one buck[/header]<br><br><b>Baby Greens[/header] Tender head lettuces, avocado, pickled onion, shaved radish with  black pepper buttermilk dressing and toasted pine nuts<br><br><b>Local Rapini[/header] braised with whole garlic, chile and anchovy finished with parmigiano reggiano and bread crumbs<br><br><b>Beans &amp; Greens[/header] Daily beans with rotating braised greens</b></b></b></b></b></b>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[SANDWICHES]]></label>
+        <text><![CDATA[PL’s Reuben <br>House Sauerkraut, Russian River Dressing, Peppered Seitan and Cave Aged Gruyere on Bennett Ridge Rustic Rye 9<br><br>Fire Roasted Fish Sandwich <br>Shaved Onion, Baby Lettuces and Aioli on Toasted Sourdough 12<br><br>Humboldt Tuna Melt<br>Our delicately prepared Tuna Salad, served open faced with Cave Aged Gruyere 11 <br><br>Fresh Baked Panino <br>Kumquat Vinaigrette, Goat Cheese, Shaved Fennel and Fresh Cut Arugula with Spicy Aioli 9 add Prosciutto 2.5<br><br>The Lamb Burger  <br>Oven roasted to your liking with crisp Escarole, melted Fontina, Aioli, Ketchup and House Bun 12<br><br>PL’s “Banh Mi”<br>House Smoked Pork Belly, Pickled Cabbage and Carrots, Torn Basil, Mizuna and Dijonaise on a House Made Baguette 12<br>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[OUR PIZZA]]></label>
+        <text><![CDATA[[header]13" Personal Size[/header]<br><br>[header]True Italian Pizza,[/header] baked on our 800-degree fire deck pizza hearth. We use a blend of organic whole wheat flour and Italian white flour. We also offer a soy-based cheese for all our vegans and dairy-conscious customers.<br><br>[header]Cipolla:[/header] Marinara, shaved Red Onion, Reggiano Parmigiano and Wild Arugula. [header]Add Local organic Egg 1. Add Proscuitto 2.[/header]<br><br>[header]Pizza Funghi:[/header] Maitake and King Trumpet Mushrooms, Caramelized Onion, Calabrian Chilis and Val d’ Aosta Fontina [header]15.[/header]<br><br>[header]Pizza ‘Scarole:[/header] Escarole, Caramelized Onions, Housemade Pork Sausage and Val d’ Aosta Fontina [header]15.[/header]<br><br>[header]Neapolitan:[/header] Fresh Marinara, fresh Mozzarella, fresh Basil [header]14.[/header]<br><br>[header]Pizza Salsiccia:[/header] Marinara, Spring Onion and Green Garlic, House Pork Sausage and Val d’ Aosta Fontina[header]15.[/header]]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[MACRO BOWL]]></label>
+        <text><![CDATA[[header]Macro Bowl $9.50[/header] Featuring warm daily greens, veggies and brown rice, served in a super-heated soapstone pot from the hearth oven.<br>choice of house-made sauce<br>[header]Miso Ginger[/header] <br>[header]Lemon Tahini[/header]<br>and vegetarian protein<br>[header]Marinated Tofu[/header]<br>[header]Baked Tempeh[/header]<br>[header]Crispy Seitan[/header]<br>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[COLD CASE]]></label>
+        <text><![CDATA[Individual $7   Sampler $14<br><br>From our cold case, we offer our customers quick and tasty selections that can either accompany our to-order menu or stand-alone as a snack or a full meal.<br><br><b>Fire roasted baby heirloom carrots[/header]<br><br><b>Classic Summer Caponata[/header]<br><br><b>Marinated Fava beans[/header]<br><br><b>Marinated Barlotti beans[/header] w/ heirloom chicories<br><br><b>Edamame, brown rice,[/header] marinated tofu and shiitake salad<br><br><b>City of Sebastopol eggplant[/header]<br><br><b>Fire roasted and[/header] marinated root vegetables<br><br><b>Fire roasted gypsy peppers[/header]<br>marinated in red wine<br><br><b>Albacore Tuna nicoise[/header] with green cecci beans<br><br><b>Roasted and marinated[/header] summer vegetables<br><br><b>Panzanella w/ heirloom[/header] tomatoes and Ricotta Salata cheese<br><br><b>Chickpeas and swiss[/header] chard salad<br><br><b>Fire roasted Trumpet[/header] Royal with miso vinaigrette<br><br><b>Escarole with smoky[/header] tempeh, chiles and garlic<br><br><b>Cannellini bean dip[/header]</b></b></b></b></b></b></b></b></b></b></b></b></b></b></b>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[LUNCH SPECIALS]]></label>
+        <text><![CDATA[[header]Walnut Mint Flat Bread Salad[/header]<br>Fresh baked Flat Bread and Walnut Mint Pesto with an Arugula, pickled Onion and Ricotta Salata Salad [header]11[/header]<br><br>[header]Classic Nicoise[/header]<br>California Line caught Albacore Tuna over a bed of greens, with a six min. egg, roasted veggies &amp; olives [header]13[/header]<br><br>[header]Pizza Bianca[/header]<br>Shaved Asparagus, Meyer Lemon, Red Onion, Calabrian Chilies, Fresh Chevre and Local Egg [header]16[/header]<br><br>[header]Penne[/header]<br>House Made Fennel Sausage, Spring Onion,Green Garlic, Broccolette and Tomato with Parmigiano [header]15[/header]<br><br>[header]Pesce del Giorno[/header] <br>Local Rock Cod, Heirloom Potatoes, Fennel and Arugula with Preserved Lemon Vinaigrette [header]16[/header] <br><br>]]></text>
+    </menu>
+</deli>
+<wine_bar>
+    <menu>
+        <label><![CDATA[ABOUT OUR WINE BAR]]></label>
+        <text><![CDATA[Come hang out for wine tasting and antipasti, pizza and salad, or simply take it all to go. Each evening we'll offer fully assorted antipasti platters with a variety of home-marinated Italian delicacies. Evening specials will include risotto, pizzas, and handmade pastas. Enjoy a fairly priced selection from our list of sustainable, organic and biodynamically produced wines. Please come and enjoy a lively evening atmosphere and discover the best food, music and company West County has to offer.]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[ANTI-PASTI]]></label>
+        <text><![CDATA[Individual $7   Sampler $14<br><br>From our cold case, we offer our customers quick and tasty selections that can either accompany our to-order menu or stand-alone as a snack or a full meal. <b>SAMPLE OF AVAILABLE ITEMS[/header]<br><br><b>Fire Roasted Baby Heirloom Carrots[/header]<br><b>Oven Roasted Baby Chiogga Beets[/header]<br><b>Roasted Russian Banana Potatoes[/header]<br><b>House Cured Olives[/header]<br><b>Classic Summer Caponata[/header]<br><b>Marinated Fava beans[/header]<br><b>Marinated Barlotti beans[/header] w/ heirloom chicories<br><b>Edamame, brown rice,[/header] marinated tofu and shiitake salad<br><b>City of Sebastopol eggplant[/header]<br><b>Fire roasted and[/header] marinated root vegetables<br><b>Fire roasted gypsy peppers[/header]<br>marinated in red wine<br><b>Albacore Tuna nicoise[/header] with green cecci beans<br><b>Roasted and marinated[/header] summer vegetables<br><b>Panzanella w/ heirloom[/header] tomatoes and Ricotta Salata cheese<br><b>Chickpeas and swiss[/header] chard salad<br><b>Fire roasted Trumpet[/header] Royal with miso vinaigrette<br><b>Escarole with smoky[/header] tempeh, chiles and garlic<br><b>Cannellini bean dip[/header]<br></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[GREENS]]></label>
+        <text><![CDATA[<b>Individual $5 Family $9[/header]<br><br>We offer a daily selection of salads and warm greens, Chosen with the intention to represent a seasonal blend, they will always be the freshest northern Cali greens available.<br><br><b>PL's Escarole Caesar[/header] Young escarole with fire roasted croutons, caesar dressing and Reggiano cheese<br><br><b>Gemischter Salat[/header] Bohemian Farm Collective winter greens, root vegetables, toasted pepitas and balsamic vinaigrette.  [header]Add goat cheese for one buck[/header]<br><br><b>Baby Greens[/header] Tender head lettuces, avocado, pickled onion, shaved radish with  black pepper buttermilk dressing and toasted pine nuts<br><br><b>Local Rapini[/header] braised with whole garlic, chile and anchovy finished with parmigiano reggiano and bread crumbs<br><br><b>Beans &amp; Greens[/header] Daily beans with rotating braised greens</b></b></b></b></b></b>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[OUR PIZZA]]></label>
+        <text><![CDATA[[header]13" Personal Size[/header]<br><br>[header]True Italian Pizza,[/header] baked on our 800-degree fire deck pizza hearth. We use a blend of organic whole wheat flour and Italian white flour. We also offer a soy-based cheese for all our vegans and dairy-conscious customers.<br><br>[header]Cipolla:[/header] Marinara, shaved Red Onion, Reggiano Parmigiano and Wild Arugula. [header]Add Local organic Egg 1. Add Proscuitto 2.[/header]<br><br>[header]Pizza Funghi:[/header] Maitake and King Trumpet Mushrooms, Caramelized Onion, Calabrian Chilis and Val d’ Aosta Fontina [header]15.[/header]<br><br>[header]Pizza ‘Scarole:[/header] Escarole, Caramelized Onions, Housemade Pork Sausage and Val d’ Aosta Fontina [header]15.[/header]<br><br>[header]Neapolitan:[/header] Fresh Marinara, fresh Mozzarella, fresh Basil [header]14.[/header]<br><br>[header]Pizza Salsiccia:[/header] Marinara, Spring Onion and Green Garlic, House Pork Sausage and Val d’ Aosta Fontina[header]15.[/header]<br>]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[EVENING SPECIALS]]></label>
+        <text><![CDATA[“In the spring, at the end of the day, <br>you should smell like dirt.” -- Margaret Atwood<br><br>Soup French Lentil and Paquillo Pepper <br>cup 5 bowl 7 add Bread .5<br><br>Beet Salat<br>Ricotta Salata, Pea Shoots, Roasted Beets, Pickled Red Onions, Green Garlic Vinaigrette 8<br><br>Bordeaux Spinach<br>Felton Acres 6 Minute Egg, Shaved Spring Onion, House Made Pancetta Vinaigrette 9<br> <br>Salumi e Formaggio  <br>House Made Duck Bresaola, Prosciutto di Parma<br>Crotin &amp; Cameo from Redwood Hill<br>Crostini and Spring Onion &amp; Strawberry Jam <br>Choose 2 for 9 or 4 for 14<br><br>Pizza Agnello<br>Braised Swallow Valley Lamb, Caramelized Onions, Calabrian Chiles, Mozzarella, Arugula and Parmigiano 16<br><br>Maitake Mushroom<br>Roasted Maitake Mushroom, Herbed Barley, Baby Carrots, Broccoli Di Ciccio 15<br><br>Swallow Valley Lamb Ravioli<br>House Made Piquillo Pepper Pasta stuffed with Braised Lamb and Fresh Chevre, with Fava Beans, Kalamata Olives and lamb Brodo 16 <br><br>Pappardelle alla Bolognese<br>House Made Pasta, Pork, Beef and Veal Ragu finished with Shaved Parmigiano 16<br><br>Rotolo<br>House Made Pasta rolled with Herbed Ricotta, English Peas and Morel Mushrooms in a Garlic Scape and Mushroom Broth <br>with Fresh Cut Arugula 17<br><br>California Halibut<br>La Ratte Potatoes, Fava Beans, Sugar Snap Peas, Pea Shoots and Dijon topped with Piquillo Pepper and Almond Gremolata 22<br><br>Magruder Ranch Vitellone<br>“A La Milenesa” Saffron Risotto with Mascarpone, Parmigiano Reggiano, Roasted Asparagus Preserved Lemon 22]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[ZERO KILOMETRO 6-08]]></label>
+        <text><![CDATA[[header]3 courses $35 Red Car wine pairing $25[/header]<br>proceeds from wine pairing donated to local farms<br><br>1st Course 2009 chardonnay, sonoma coast, boxcar <br><br>Three Ox Baby Butter Head Salad<br>Three Ox Blanched Baby Onions, Pickled Raven and Fox Swiss Chard Stems, Laguna Baby Beets, Creamy Lemon Dressing 8<br><br>Caldo Verde Soup<br>Braised Three Ox Kale, Laguna Nante Carrots, Laguna Turnips, Felton Acres Poached Egg 8<br><br>2nd Course 2009 pinot noir, trolley, sonoma coast, redcar<br><br>Vegetable Tasting<br>Sauce Suboise, Roasted Whole Onions, wilted Laguna Spinach, First Light Fava Beans, Smoked Myocopia Trumpet Mushrooms 22<br><br>Felton Acres Roasted ½ Chicken<br>Roasted Bohemian Romaine, Crispy Summerfield Polenta <br>made with Rainbows End Goats Milk, Charred Three Ox Scallions, Nebrodini Bianco Mushrooms 24<br><br>3rd Course 2009 roussanne, bennett valley, redcar<br><br>Redwood Hill Cheese Plate Cameo and Bucheret <br>Route 12 Strawberry and Laguna Spring Onion Jam 9<br><br>Felton Acres Zabaione <br>Sebastopol Berry Farm Raspberries and Blackberries 8<br>.]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[WINE LIST]]></label>
+        <text><![CDATA[[header]Bubbly[/header] ‘06 Sparkling Brut, Mendocino, Terra Savia - O - 8/32  <br><br>[header]Whites[/header]                     <br>‘09 Rosé of Grenache/Mourvedre, Dry Creek Valley, Unti - B - 8/28<br>‘07 Riesling Spätlese, Mosel, Germany, Dr. Loosen - S - 7/28<br>‘08 Soave Classico, Verona, Italy, Inama - S - 7/28<br>‘09 Sauvignon Blanc, Chalk Hill, Medlock Ames - O - 8/36<br>‘09 Verdicchio, Matefica, Italy, Colle Stefano - O - 8/32<br>‘06 Chardonnay, Quail Hill Vineyard, Russian River Valley, Lynmar - O - 10/20  <br>‘07 Chardonnay, Ovation, Sonoma Coast, Freestone Vineyards - B - 9/36      <br><br>[header]Reds[/header]  <br>‘07 Zinfandel, Dry Creek Valley, Jus Soli - S -8/32<br>‘07 Grenache, Dry Creek Valley, Unti - S - 9/36<br>‘09 Pinot Noir, Central Coast, Folk Machine - S - 10/40<br>‘07 Pinot Noir, Keefer Ranch, Russian River Valley, Freeman - S - 12/48       <br>‘08 Nebbiolo, Langhe Region, Italy, Elio Grasso - S - 10/40<br>‘08 Syrah, Las Colinas, Sonoma Coast, Radio Coteau - S - 12/48<br>‘05 Cabernet Sauvignon, Napa Valley, Tin Barn - O - 7/28<br>‘07 Mencîa, Bierzo, Spain, Descendientes de J. Palacios - B - 8/36<br>‘07 Pinot Noir, Goldridge Vineyard, Russian River, Dehlinger - S - 60<br>‘07 Pinot Noir, Bella Vigna Vineyard, Sonoma Coast, Whetstone - S - 75	<br>‘04 Barolo, Piemonte, Italy, Germano Ettore - S - 75<br>‘05 Barolo, Serralunga D’Alba, Italia, Guido Porro - O - 55	<br>‘07 Pinot Noir, Stuller Vineyard, Sonoma Coast, Bohéme - O - 50<br>‘06 Pinot Noir, Savoy Vineyard, Anderson Valley, Radio-Coteau - O - 75<br>‘06 Pinot Noir, Texas Hill Road, Sierra Foothills, Clos Saron  - B - 45<br>‘05 Pinot Noir, Christina Vineyard, Sonoma Coast, Marimar Estate - B - 70<br>‘07 Pinot Noir, Terra Neuma Vineyard, Sonoma Coast, Radio-Coteau - B - 70                 <br>‘05 Syrah, Heart of Stone, Sierra Foothills, Clos Saron  - B - 45]]></text>
+    </menu>
+    <menu>
+        <label><![CDATA[AFTER DINNER THOUGHTS]]></label>
+        <text><![CDATA[<b>Local Strawberry Ice Cream 5[/header]<br><br><b>Not Momma’s Pie[/header] - Organic rubarb pie with a dollop of whipped cream and fresh local strawberries 6<br><br><b>Peach and Almond Tart[/header] - Organic white peach tart in our classic pastry crust with a dollop of house whipped cream 6<br><br><b>Chocolate Nemesis Cake[/header] - Our flourless cake, brooding and not too sweet, with a dollop of house whipped cream. 6<br><br><b>Coffee and Tea[/header]<br>Espresso 2<br>Cappucino or Cortado 2.5<br>Latte 3<br>Chai 3<br>Pot o’  Tea 3.5<br><br><br><b>Digestive[/header]<br>‘06 Dindarello, Italy, Maculan 9      <br>‘01 Quita do Vesuvio Port 9.5<br>Carpano Antica over ice 7<br>Lillet over ice in a bourdeaux glass 7<br><br></b></b></b></b></b></b>]]></text>
+    </menu>
+</wine_bar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</services>

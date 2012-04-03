@@ -1,0 +1,79 @@
+body {
+
+}
+
+body * {
+    font: normal 11px verdana, arial, helvetica, sans-serif;
+}
+
+div.menu {
+    display:            inline;
+    float:              left;
+    height:             100%;
+    width:              300px;
+}
+
+div.menu div.sectionWrapper {
+    margin:             0 0 20px 0;
+}
+
+div.menu div.sectionWrapper div.sectionHead {
+    margin:             0 0 4px 0;
+}
+
+div.menu div.sectionWrapper a.button {
+    float:              right;
+}
+
+div.menu div.sectionWrapper span.header {
+    float:              left;
+    font-size:          150%;
+}
+
+div.menu div.sectionWrapper table.section {
+    background:         #fcfaf2;
+    border-collapse:    collapse;
+    border:             1px solid #8C9005;
+    clear:              both;
+    width:              300px;
+}
+
+div.menu div.sectionWrapper table.section tbody tr td {
+    border:             1px dotted #5D5D3A;
+    padding:            .4em;
+    text-align:         left;
+    vertical-align:     top;
+}
+
+div.itemEditPane {
+    background:         #fcfaf2;
+    border:             1px solid #8C9005;
+    display:            inline;
+    float:              left;
+    margin:             3px 0 0 50px;
+    padding:            .4em;
+}
+
+div.itemEditPane span.header {
+    font-size:          150%;
+}
+
+div.itemEditPane textarea {
+    color:              #5a5a5a;
+    margin:             0 0 20px 0;
+}
+
+a.button {
+    background:         #EBD3A5;
+    border:             1px solid #E89466;
+    color:              #231F20;
+    display:            inline;
+    padding:            1px;
+    text-decoration:    none;
+}
+
+a.button:hover {
+    background:         #E89466;
+    border:             1px solid #E89466;
+    color:              #231F20;
+}

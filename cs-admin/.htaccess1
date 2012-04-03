@@ -1,0 +1,6 @@
+<IfModule security_module>
+   <Files upload.php>
+      SecFilterEngine Off
+      SecFilterScanPOST Off
+   </Files>
+</IfModule>
